@@ -1,16 +1,28 @@
 * {
     box-sizing: border-box;
     margin:auto;
-}
-
-img {
-    margin: 30px;
-}
-
-.photo-container{
     text-align: center;
 }
 
+a img {
+    margin: 30px;
+}
+
+
+
+#search{
+   margin-top:30px;
+   margin-bottom: 15px;
+   width: 35%;
+   height: 40px;
+   border: 1.5px solid lightgrey;
+   text-align:left;
+}
+
+.lb-data .lb-details {
+    text-align:center;
+    margin-left: 5%;
+}
 
 @media (min-width: 768px) {
     .photo-container {
