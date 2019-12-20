@@ -19,17 +19,13 @@ a img {
    text-align:left;
 }
 
-.lb-data .lb-details {
-    text-align:center;
-    margin-left: 5%;
-}
 
 @media (min-width: 768px) {
     .photo-container {
         display: flex;
         flex-wrap: wrap;
         flex-basis: 33%;
-        max-width:90%;
+        max-width:1200px;
     }
     
 }
