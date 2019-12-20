@@ -6,10 +6,10 @@ $('#search').on('keyup', function(){
     $('a').each(function(index, element){
        const captionAttr = $(element).attr('data-title').toLowerCase();
 
-        if (captionAttr.includes(value)){
-            $('img').show();
+        if (captionAttr.indexOf(value) > -1){
+$('img').style.display = "";
         } else {
-            $('img').hide();
+            $('img').style.display = 'none';
         }
       
       })
