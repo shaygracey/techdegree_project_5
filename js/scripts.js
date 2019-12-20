@@ -5,11 +5,12 @@ $('#search').on('keyup', function(){
 
     $('a').each(function(index, element){
        const captionAttr = $(element).attr('data-title').toLowerCase();
+       const contain = captionAttr.parentElement;
 
         if (captionAttr.indexOf(value) > -1){
-$('img').style.display = "";
+            $('contain').style.display = "flex";
         } else {
-            $('img').style.display = 'none';
+            contain.style.display = 'none';
         }
       
       })
