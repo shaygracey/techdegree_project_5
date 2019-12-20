@@ -6,7 +6,7 @@ $('#search').on('keyup', function(){
        const captionAttr = $(this).attr('data-caption').toLowerCase();
 
         if (captionAttr.indexOf(value) > -1){
-            $('this').show();
+            $(this).show();
         } else {
             $(this).hide();
         }
